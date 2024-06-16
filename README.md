@@ -3,10 +3,12 @@ Super Famicom/Super Nintendo/SNES controller to Megadrive/Genesis converter. Usi
 Holding down Select button enables 3-button mode.
 
 ## SNES controller pinout:
+<pre>
  ______________________________________
 |                     |                 \
 | (1)  (2)  (3)  (4)  |  (5)  (6)  (7)   )
 |_____________________|________________ /
+</pre>
 
 |Pin | Function | Wire color|
 |----|----------|-----------|
@@ -18,8 +20,7 @@ Holding down Select button enables 3-button mode.
 |6   | -        |no wire    |
 |7   |Gnd       |Brown      |
 
-** Connection to MCU: **
-
+**Connection to MCU:**
 | SNES    | Atmega Pin |
 |---------|------------|
 |2 (Clock)| PC0        |
@@ -27,12 +28,14 @@ Holding down Select button enables 3-button mode.
 |4 (Data) | PC2        |
 
 
-##Mega Drive controller pinout (front of console):
+## Mega Drive controller pinout (front of console):
+<pre>
  ___________________________
 \                           /
  \   (1) (2) (3) (4) (5)   /
   \    (6) (7) (8) (9)    /
    \ ___________________ /
+</pre>
 
 |Pin | Function | Wire color|
 |----|----------|-----------|
@@ -46,8 +49,7 @@ Holding down Select button enables 3-button mode.
 |8   |GND       |Black      |
 |9   |Start/C   |White      |
 
-** Connection to MCU: **
-
+**Connection to MCU:**
 | MD        | Atmega Pin |
 |-----------|------------|
 |1 (Up)     |PD2         |
