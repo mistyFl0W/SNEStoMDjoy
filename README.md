@@ -53,7 +53,7 @@ Holding down Select button enables 3-button mode.
 | MD        | Atmega Pin |
 |-----------|------------|
 |1 (Up)     |PD2         |
-|2 (DOwn)   |PD3         |
+|2 (Down)   |PD3         |
 |3 (Left)   |PD4         |
 |4 (Right)  |PD5         |
 |6 (A/B)    |PD6         |
