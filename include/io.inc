@@ -1,0 +1,28 @@
+; STATUS REGISTER
+.equ SREG, 0x3F
+
+.equ PORTB, 0x05
+.equ DDRB, 0x04
+.equ PINB, 0x03
+
+.equ PORTC, 0x08
+.equ DDRC, 0x07
+.equ PINC, 0x06
+
+.equ PORTD, 0x0B
+.equ DDRD, 0x0A
+.equ PIND, 0x09
+
+
+.equ PCICR, 0x0068
+.equ PCMSK0, 0x006B
+
+; TIMER/COUNTER 0 
+.equ TCCR0A, 0x0024
+.equ TCCR0B, 0x0025
+.equ TCNT0, 0x0026
+.equ OCR0A, 0x0027
+.equ OCR0B, 0x0028
+.equ TIMSK0, 0x006E
+.equ TIFR0, 0x0015
+
