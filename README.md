@@ -1,6 +1,6 @@
 # SNEStoMDjoy
 Super Famicom/Super Nintendo/SNES controller to Megadrive/Genesis converter. Using Arduino Nano (Atmega328p).  
-Holding down Select button enables 3-button mode.
+Holding down Select button at the startup enables 3-button mode.
 
 ## SNES controller pinout:
 <pre>
